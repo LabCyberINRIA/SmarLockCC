@@ -1,6 +1,10 @@
 Printed Circuit Board designed with Kicad to control an electrical lock.
 It has a microcontroller (ESP32-C3) capable of bluetooth, WiFi and USB, a connector for a RFID reader board based on NXP MFRC522 chip, a servomotor connector and RGB LED.
 
+![Schematics](https://github.com/LabCyberINRIA/SmarLockCC/blob/master/Hardware/Pictures/smartlockcc.pdf)
+![PCB-3D-Front](https://github.com/LabCyberINRIA/SmarLockCC/blob/master/Hardware/Pictures/smartlockcc_front.png?raw=true)
+![PCB-3D-Back](https://github.com/LabCyberINRIA/SmarLockCC/blob/master/Hardware/Pictures/smartlockcc_back.png?raw=true)
+
 To program the board using Arduino IDE, you need to add the ESP32 support https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
 
 Connect your board and select the "Adafruit QT Py ESP32-C3" board, and the port that should appear. The first time or if the port does not appear, you need to put manually your board in download mode : push the boot button, power or reset the board, then release the boot button.
